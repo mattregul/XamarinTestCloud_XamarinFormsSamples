@@ -15,10 +15,11 @@ namespace XamarinTestCloud_XamarinFormsSamples
 
 			// Dictionary of the different Examples
 			ExamplesDictionary = new Dictionary<string, Type>{
+				{"Buttons", typeof(Test_ButtonsPage)},
 				{"Entry and Editors", typeof(Test_EntryAndEditorPage)},
 				{"Pickers (Picker, Date, & Time)", typeof(Test_PickersPage)},
 
-				//{"Buttons", typeof(ComingSoon!)},
+				// Copied list from my other sample... not sure if we'll have them all
 				//{"Dropdown/Select Menu", typeof(ComingSoon!)},
 				//{"Async Request", typeof(ComingSoon!)},
 				//{"Radio & Checkboxes", typeof(ComingSoon!)},

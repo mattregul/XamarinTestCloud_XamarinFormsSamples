@@ -34,6 +34,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\Test_EntryAndEditor.cs" />
     <Compile Include="Pages\Test_Pickers.cs" />
+    <Compile Include="Pages\Test_Buttons.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
